@@ -18,7 +18,7 @@
         <div>
             <x-input-label for="email" :value="__('Email')" />
             <x-text-input id="email" 
-                          class="block mt-1 w-full border-gray-300 bg-white placeholder-gray-500 text-gray-900" 
+                          class="block mt-1 w-full border-gray-300 bg-white placeholder-gray-500 text-gray-900 p-3 text-lg" 
                           type="email" 
                           name="email" 
                           :value="old('email')" 
@@ -33,7 +33,7 @@
             <x-input-label for="password" :value="__('Password')" />
 
             <x-text-input id="password" 
-                          class="block mt-1 w-full border-gray-300 bg-white placeholder-gray-500 text-gray-900" 
+                          class="block mt-1 w-full border-gray-300 bg-white placeholder-gray-500 text-gray-900 p-3 text-lg" 
                           type="password" 
                           name="password" 
                           required 
